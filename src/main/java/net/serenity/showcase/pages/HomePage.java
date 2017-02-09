@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 
 
-@DefaultUrl("http://www.intouchfollowup.com/")
+@DefaultUrl("https://qa.app.intouchfollowup.com/beta")
 public class HomePage extends GlobalPage {
 	
 	private static Logger logger = Logger.getLogger(HomePage.class);

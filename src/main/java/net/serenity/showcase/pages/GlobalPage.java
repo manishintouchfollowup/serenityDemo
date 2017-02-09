@@ -99,7 +99,7 @@ public class GlobalPage extends PageObject {
 	
 	public void typeIn(String elementName, String keyword) {
 		String elementProperty = propertyFile.getProperty(elementName);
-		$(elementProperty).type(keyword);		
+		$(elementProperty).waitUntilEnabled().type(keyword);		
 	}
 
 	

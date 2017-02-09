@@ -1,2 +1,4 @@
 {ignorableSeparator=!--,headerSeparator=|,valueSeparator=|,transformer=FROM_LANDSCAPE}
 | position | Quality Assurance |
+| usernameFullAdmin | fulladmin |
+| passwordPassword | password |

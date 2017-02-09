@@ -29,6 +29,10 @@ public interface Constants {
 	 * PAGE OBJECT VARIABLES DECLARATIONS
 	 */
 	String HOMEPAGE = "HomePage";
+	
+	String TEXT_HOME_PAGE = "Follow-Up";
+	
+	String TEXT_OPT_IN = "Opt In";
 
 
 	/**
