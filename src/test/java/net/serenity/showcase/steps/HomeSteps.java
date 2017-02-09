@@ -132,6 +132,8 @@ public class HomeSteps extends ScenarioSteps {
     @When("the user add a lead")
     public void theUserAddALead () {
     	logger.log(Level.INFO, Util.getMethodName(0) + " Instantiated");
+    	Util.pause(WaitingTime.LONG);
+    	Util.pause(WaitingTime.LONG);
     	homePage.clickOn("buttonAddALead");
     }
     
@@ -159,6 +161,16 @@ public class HomeSteps extends ScenarioSteps {
     public void theUserSaveTheDetails () {
     	logger.log(Level.INFO, Util.getMethodName(0) + " Instantiated");
     	homePage.clickOn("buttonSave");
+    }
+    
+    
+    /**
+     * select new lead option
+     */
+    @When("the user select option to add a new lead")
+    public void theUserSelectOptionToAddANewLead () {
+    	logger.log(Level.INFO, Util.getMethodName(0) + " Instantiated");
+    	homePage.clickOn("buttonNewLead");
     }
     
     

@@ -17,6 +17,7 @@ And the user enter the password '<passwordPassword>'
 And the user click on login
 Then the user should be on home page
 When the user add a lead
+And the user select option to add a new lead
 And the user add details of new lead
 And the user save the details
 Then the user should see Opt In preferences
